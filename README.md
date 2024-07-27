@@ -52,16 +52,16 @@ Do you want to perform another operation? (yes/no): no
 
 
 ### How it works:
-1. Encryption (caesar_cipher_encrypt):
+1.Encryption (caesar_cipher_encrypt):
    
-* Iterate through each character in the input text.
+- Iterate through each character in the input text.
 - If the character is a letter, calculate its shifted position based on the ASCII value, wrap around using modulo operation, and convert it back to a character.
 - If the character is not a letter, leave it unchanged.
 
-3. Decryption (caesar_cipher_decrypt):
+2.Decryption (caesar_cipher_decrypt):
 - Decryption is done by calling the encryption function with the negative of the shift value.
 
-5. Main function (main):
+3.Main function (main):
 - Prompt the user to choose between encryption and decryption.
 - Ask for the message and shift value.
 - Perform the selected operation and display the result.
