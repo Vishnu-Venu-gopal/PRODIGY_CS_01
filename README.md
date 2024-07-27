@@ -54,7 +54,7 @@ Do you want to perform another operation? (yes/no): no
 ### How it works:
 1. Encryption (caesar_cipher_encrypt):
    
-- Iterate through each character in the input text.
+-- Iterate through each character in the input text.
 - If the character is a letter, calculate its shifted position based on the ASCII value, wrap around using modulo operation, and convert it back to a character.
 - If the character is not a letter, leave it unchanged.
 
