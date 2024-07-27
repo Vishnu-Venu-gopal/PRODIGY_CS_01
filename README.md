@@ -22,12 +22,14 @@ We define a mod n to be the remainder when a is divided by n. For example, 11 mo
 
 C= E(3, p) = (p+ 3) mod 26
 
+
 ### Description
 In this task, I created a Python program that performs the following functions:
 
 - Encrypts a given message using the Caesar Cipher algorithm by giving user input.
 - Decrypts an encrypted message using the same algorithm by giving user input.
 - Allows users to input a message and a shift value to perform the encryption and decryption.
+
 
 ### Example
 Do you want to (e)Encrypt or (d)Decrypt the message? Enter 'e' or 'd': e
@@ -66,3 +68,8 @@ Do you want to perform another operation? (yes/no): no
 - Ask for the message and shift value.
 - Perform the selected operation and display the result.
 - Allow the user to perform multiple operations until they decide to exit.
+
+
+### Repository Contents
+- **PRODIGY_CS_01.py**: The main Python script containing the implementation of the Caesar Cipher.
+- **README.md**: This file, providing an overview of the task and the project.
