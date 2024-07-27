@@ -29,10 +29,23 @@ In this task, I created a Python program that performs the following functions:
 - Decrypts an encrypted message using the same algorithm by giving user input.
 - Allows users to input a message and a shift value to perform the encryption and decryption.
 
-A shift may be of any amount, so that the general Caesar algorithm is
+### Example
+Do you want to (e)Encrypt or (d)Decrypt the message? Enter 'e' or 'd': e
 
-C= E(k, p) = (p+ k) mod 26
+Enter the message: hello
 
-where k takes on a value in the range 1 to 25. The decryption algorithm is simply
+Enter the shift value: 22
 
-p= D(k, C) = (Ck) mod 26
+The resulting message is: dahhk
+
+Do you want to perform another operation? (yes/no): yes
+
+Do you want to (e)Encrypt or (d)Decrypt the message? Enter 'e' or 'd': d
+
+Enter the message: dahhk
+
+Enter the shift value: 22
+
+The resulting message is: hello
+
+Do you want to perform another operation? (yes/no): no
