@@ -22,6 +22,13 @@ We define a mod n to be the remainder when a is divided by n. For example, 11 mo
 
 C= E(3, p) = (p+ 3) mod 26
 
+### Description
+In this task, I created a Python program that performs the following functions:
+
+Encrypts a given message using the Caesar Cipher algorithm by giving user input.
+Decrypts an encrypted message using the same algorithm by giving user input.
+Allows users to input a message and a shift value to perform the encryption and decryption.
+
 A shift may be of any amount, so that the general Caesar algorithm is
 
 C= E(k, p) = (p+ k) mod 26
